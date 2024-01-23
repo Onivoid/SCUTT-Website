@@ -1,6 +1,5 @@
 @import url("./reset.css");
 @import url("./variables.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 
 body {
   background-color: var(--surface-0);

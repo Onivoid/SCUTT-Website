@@ -7,6 +7,8 @@ import Image from 'next/image';
 import SoftwareLayout from '@/resources/SoftwareLayout.png';
 import Footer from '@/components/footer';
 import HowToUse from '@/components/howToUse';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBolt } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -40,7 +42,7 @@ export default function Home() {
           </Card>
           <Card className={PageStyle.gridItem}>
             <h3 className={PageStyle.gridItemTitle}>
-              <i className='fa-solid fa-bolt' style={{color: 'var(--primary-500)', marginRight:'5px'}}/>
+              <FontAwesomeIcon icon={faBolt} style={{color: 'var(--primary-500)', marginRight:'5px'}} />
               {t("homePage_featureTitle2")}
             </h3>
             <p className={PageStyle.gridItemText}>{t("homePage_featureDescription2")}</p>

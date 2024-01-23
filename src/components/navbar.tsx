@@ -7,6 +7,8 @@ import { Menubar } from 'primereact/menubar';
 import { Sidebar } from 'primereact/sidebar';
 import { Button } from 'primereact/button';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const MOBILE_SCREEN_WIDTH = 960;
 
@@ -78,7 +80,7 @@ export default function Navbar() {
         <Link target='blank' href="https://discord.gg/65VdVwdHT5" className={ComponentStyle.link}>Discord</Link>
         <Link target='blank' href="https://www.paypal.com/donate/?hosted_button_id=39UVHJRAQRQUJ" className={ComponentStyle.linkDonation}>
           Soutenir le Projet
-          <i className='fa fa-heart' style={{marginLeft: "10px"}}></i>
+          <FontAwesomeIcon icon={faHeart} style={{marginLeft: "10px"}}/>
         </Link>
       </div>
     )
