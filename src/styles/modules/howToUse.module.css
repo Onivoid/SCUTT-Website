@@ -1,0 +1,42 @@
+.tabs *{
+  background: transparent;
+  font-weight: 500;
+}
+.activePanel{
+  background: var(--primary-900);
+}
+
+.paneContainer *{
+  animation: FadeAppear .5s ease-in-out;
+}
+.paneContainer p{
+  font-weight: 300;
+}
+
+.paneContainer img{
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.disclaimer{
+  font-style: italic;
+  color: var(--orange-300)
+}
+
+.disclaimer i {
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+@keyframes FadeAppear{
+  from{
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,33 @@
+.footer{
+  padding: 20px 0;
+  border-top: 1px solid var(--primary-500);
+}
+.footerGridContainer{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.footerGridItemLeft{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+.footerGridItemRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+}
+.footerText{
+  color: var(--primary-300);
+  font-weight: 300;
+  font-style: italic;
+}
+.footerCopy{
+  color: var(--primary-300);
+  text-align: center;
+  font-style: italic;
+}
