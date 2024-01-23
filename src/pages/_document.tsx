@@ -1,6 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import { PrimeReactProvider } from 'primereact/api';
-import Icon from '@/resources/icon.png';
 
 
 export default function Document({
@@ -12,8 +11,12 @@ export default function Document({
     <Html>
       <Head>
         <title>SCUTT - Star Citizen Universal Translation Tool</title>
-        <link rel="icon" href="https://github.com/Onivoid/SCUTT-Website/blob/master/src/resources/icon.png" />
+        <link rel="icon" type='image/png' href="/icon.png" />
         <meta name="theme-color" content="#111827" />
+        <meta property="og:title" content="SCUTT - Star Citizen Universal Translation Tool" />
+        <meta property="og:description" content="Multi-languages Translation Tool for Star Citizen" />
+        <meta property="og:image" content="/Splash.png" />
+        <meta property="og:url" content="https://scutt.onivoid.fr" />
       </Head>
         <body>
           <PrimeReactProvider>
