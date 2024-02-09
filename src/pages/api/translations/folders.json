@@ -1,0 +1,17 @@
+{
+  "fr": {
+    "folder": "french_(france)"
+  },
+  "de": {
+    "folder": "german_(germany)"
+  },
+  "ita": {
+    "folder": "italian_(italy)"
+  },
+  "es": {
+    "folder": "spanish_(spain)"
+  },
+  "en": {
+    "folder": "english"
+  }
+} 
