@@ -54,7 +54,7 @@ export default function Navbar() {
           fullScreen>
             <ul className={ComponentStyle.sidebarList}>
               <li>
-                <Link target='blank' href="https://apps.microsoft.com/detail/9NN3NXQLWQCF?hl=fr-wf&gl=WF" className={ComponentStyle.link}>Télécharger</Link>
+                <Link target='blank' href="https://apps.microsoft.com/detail/aUEEdMdS6j?hl=fr-wf&gl=WF" className={ComponentStyle.link}>Télécharger</Link>
               </li>
               <li>
                 <Link target='blank' href="https://github.com/Onivoid/SCUTT" className={ComponentStyle.link}>Github</Link>
