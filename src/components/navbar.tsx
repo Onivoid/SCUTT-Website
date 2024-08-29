@@ -54,13 +54,13 @@ export default function Navbar() {
           fullScreen>
             <ul className={ComponentStyle.sidebarList}>
               <li>
-                <Link target='blank' href="https://apps.microsoft.com/detail/aUEEdMdS6j?hl=fr-wf&gl=WF" className={ComponentStyle.link}>Télécharger</Link>
+                <Link target='blank' href="https://apps.microsoft.com/detail/9NN3NXQLWQCF?hl=fr-wf&gl=WF" className={ComponentStyle.link}>Télécharger</Link>
               </li>
               <li>
                 <Link target='blank' href="https://github.com/Onivoid/SCUTT" className={ComponentStyle.link}>Github</Link>
               </li>
               <li>
-                <Link target='blank' href="https://apps.microsoft.com/detail/9NN3NXQLWQCF?hl=fr-wf&gl=WF" className={ComponentStyle.link}>Discord</Link>
+                <Link target='blank' href="https://discord.gg/aUEEdMdS6j" className={ComponentStyle.link}>Discord</Link>
               </li>
               <li>
                 <Link target='blank' href="https://www.paypal.com/donate/?hosted_button_id=39UVHJRAQRQUJ" className={ComponentStyle.link}>
@@ -77,7 +77,7 @@ export default function Navbar() {
       <div className={ComponentStyle.navbar}>
         <Link target='blank' href="https://apps.microsoft.com/detail/9NN3NXQLWQCF?hl=fr-wf&gl=WF" className={ComponentStyle.link}>Télécharger</Link>
         <Link target='blank' href="https://github.com/Onivoid/SCUTT" className={ComponentStyle.link}>Github</Link>
-        <Link target='blank' href="https://discord.gg/65VdVwdHT5" className={ComponentStyle.link}>Discord</Link>
+        <Link target='blank' href="https://discord.gg/aUEEdMdS6j" className={ComponentStyle.link}>Discord</Link>
         <Link target='blank' href="https://www.paypal.com/donate/?hosted_button_id=39UVHJRAQRQUJ" className={ComponentStyle.linkDonation}>
           Soutenir le Projet
           <FontAwesomeIcon icon={faHeart} style={{marginLeft: "10px"}}/>
