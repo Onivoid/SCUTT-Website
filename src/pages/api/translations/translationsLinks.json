@@ -6,11 +6,11 @@
       {
         "id": 0,
         "name": "SCEFRA (Settings FR)",
-        "url": "https://raw.githubusercontent.com/SPEED0U/Scefra/main/french_(france)/global.ini"
+        "url": "https://raw.githubusercontent.com/SPEED0U/Scefra-v2/refs/heads/main/french_(france)/global.ini"
       },{
         "id": 2,
         "name": "SCEFRA (Settings EN)",
-        "url": "https://raw.githubusercontent.com/SPEED0U/Scefra/settings-en/global.ini"
+        "url": "https://raw.githubusercontent.com/SPEED0U/Scefra-v2/refs/heads/settings-en/french_(france)/global.ini"
       },{
         "id": 1,
         "name": "Circuspes",
